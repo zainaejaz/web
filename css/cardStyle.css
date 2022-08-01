@@ -5,15 +5,21 @@
 .card-s h2{
     font-weight: bolder;
 }
+img{
+    width: 50px;
+    
+ }
 .card-1{
     background-color: #fff;
     width: 120px;
     height: 270px;
     margin: 200px;
     margin-top: 100px;
-    padding: 60px;
+    padding: 70px;
     border: 3px solid black;
     border-radius: 3px;
+    padding-bottom: -45px;
+    
     
 }
 .space p{
@@ -27,6 +33,7 @@
    width: 150px;
    margin-right: 50px;
    margin-top: 20px;
+
    border-radius: 15px;
    
 }
@@ -38,10 +45,11 @@
     width: 120px;
     height: 270px;
     margin: 200px;
-    margin-top: -330px;
-    padding: 60px;
+    margin-top: -400px;
+    padding: 70px;
     border: 3px solid black;
     border-radius: 3px;
+    padding-bottom: -40pt;
 }
 .btn-i button{
     text-align: center;
@@ -51,6 +59,7 @@
     width: 150px;
     margin-top: 20px;
     border-radius: 15px;
+
     
  }
  
@@ -61,8 +70,8 @@
     width: 120px;
     margin: 200px;
     height: 250px;
-    margin-top: -350px;
-    padding: 80px;
+    margin-top: -400px;
+    padding: 70px;
     border: 3px solid black;
     border-radius: 3px;
 }
@@ -77,3 +86,7 @@
     border-radius: 15px;
     
  }
+.btn-i:hover button{
+    background-color: aqua;
+    color: blueviolet;
+}
