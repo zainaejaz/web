@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.card-s h2{
+    font-weight: bolder;
+}
+.card-1{
+    background-color: #fff;
+    width: 120px;
+    height: 270px;
+    margin: 200px;
+    margin-top: 100px;
+    padding: 60px;
+    border: 3px solid black;
+    border-radius: 3px;
+    
+}
+.space p{
+    margin-top: 10px;
+}
+.btn-t button{
+   text-align: center;
+   background-color: black;
+   color: #fff;
+   padding: 10px;
+   width: 150px;
+   margin-right: 50px;
+   margin-top: 20px;
+   border-radius: 15px;
+   
+}
+
+.card-2{
+    background-color: rgb(161, 47, 76);
+    display: inline-block;
+    color: #fff;
+    width: 120px;
+    height: 270px;
+    margin: 200px;
+    margin-top: -330px;
+    padding: 60px;
+    border: 3px solid black;
+    border-radius: 3px;
+}
+.btn-i button{
+    text-align: center;
+    background-color: #fff;
+    color: rgb(230, 46, 122);
+    padding: 10px;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 15px;
+    
+ }
+ 
+ .card-3{
+    background-color: #fff;
+    display: inline-block;
+    color: black;
+    width: 120px;
+    margin: 200px;
+    height: 250px;
+    margin-top: -350px;
+    padding: 80px;
+    border: 3px solid black;
+    border-radius: 3px;
+}
+.btn-y button{
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    width: 150px;
+    margin-right: 50px;
+    margin-top: 20px;
+    border-radius: 15px;
+    
+ }
