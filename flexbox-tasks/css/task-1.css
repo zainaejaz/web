@@ -1,0 +1,162 @@
+*{
+  padding: 0;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  height: 300vh;
+}
+#navigation{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(37, 32, 32, 0.925);
+  padding: 20px;
+  border-bottom: 5px solid rgb(37, 156, 53) ;
+  position: fixed;
+}
+a{
+  color: #fff;
+  text-decoration:  none;
+  margin-right: 80px;
+}
+ a:hover{
+  background-color: rgb(37, 156, 53);
+  color: #fff;
+}
+.items{
+  margin-top: 10px;
+  display: flex;
+  list-style: none;
+  margin-right: 20px;
+}
+.bg-image{
+  background: url("../image/pexels-pixabay-235621\ \(1\).jpg")no-repeat center center/cover;
+  height: 700px;
+}
+.text-color{
+  color: rgb(37, 156, 53);
+}
+.text-color-1{
+  color: #fff;
+}
+.btn{
+  background-color: rgb(37, 156, 53);
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  width: 8%;
+}
+.btn-1{
+  background-color: black;
+  color: #fff;
+  width: 100%;
+  padding: 7px;
+  cursor: pointer;
+}
+.btn-1:hover{
+  background-color: #fff;
+  color: black;
+}
+.content{
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.heading-size{
+  font-size: 5rem;
+}
+.mt{
+  margin-top: 30px;
+}
+.para-size{
+  font-weight: bold;
+  word-spacing: 2px;
+}
+.dark-overlay{
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 700px;
+}
+.text-center{
+  text-align: center;
+}
+.bg-light{
+  background-color: rgba(128, 128, 128, 0.404);
+  padding: 30px;
+}
+.container{
+  display: flex;
+  margin-left: 100px;
+}
+.icon-size{
+  font-size: 3rem;
+}
+.card-1{
+  margin: 30px;
+  padding: 30px;
+}
+.card-2{
+  margin: 30px;
+  padding: 30px;
+}
+.card-3{
+  margin: 30px;
+  padding: 30px;
+}
+.mt-1{
+  margin-top: 10px;
+}
+.heading-size-1{
+  font-size: 2rem;
+}
+.pic-1{
+  width: 100%;
+  height: 400px;
+}
+.content-2{
+  background-color: rgba(0, 0, 0, 0.788);
+  padding: 60px;
+  width: 60%;
+}
+.container-1{
+  display: flex;
+}
+.list-style{
+  list-style: none;
+}
+.icon-size-1{
+  font-size: 8rem;
+  margin: 50px;
+}
+.icons{
+  margin-left: 300px;
+}
+.form-section{
+  background-color: rgb(37, 156, 53);
+  padding: 50px;
+  width: 100%;
+}
+.form-group label{
+  display: block;
+}
+.form-control{
+  padding: 7px;
+  width: 100%;
+}
+.pic-2{
+  width: 100%;
+}
+.footer{
+  background-color: #333;
+  padding: 50px;
+}
+.footer p{
+  color: #fff;
+  text-align: center;
+}
