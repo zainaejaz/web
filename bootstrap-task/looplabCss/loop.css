@@ -1,0 +1,22 @@
+body{
+    height: 200vh;
+}
+.height-1{
+    height: 100vh;
+}
+.navbar{
+    opacity: 0.8;
+    border-bottom: dodgerblue;
+}
+#showcase{
+    background: url(../images1/home.jpg);
+    height: 110vh; 
+}
+.dark-overlay{
+    height: 100%;
+    background-color: black;
+    opacity: 0.8;
+}
+.icon-size{
+    font-size: 2.2rem;
+}
